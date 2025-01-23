@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picture Puzzle</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <audio id="room1-music" src="/audio/room1.mp3" autoplay="false"></audio>
+  <div id="room" style="background-image: url('/photos/room5.png');">
+    <button id="hint-button">Hint</button>
+    <div id="picture-display">
+      <form id="answer-form">
+        <div>
+          <img src="/photos/horse.png" alt="Horse">
+          <input id="letter-1" type="text" maxlength="1" placeholder="_">
+        </div>
+        <div>
+          <img src="/photos/orange.png" alt="Orange">
+          <input id="letter-2" type="text" maxlength="1" placeholder="_">
+        </div>
+        <div>
+          <img src="/photos/table.png" alt="Table">
+          <input id="letter-3" type="text" maxlength="1" placeholder="_">
+        </div>
+        <div>
+          <img src="/photos/elephant.png" alt="Elephant">
+          <input id="letter-4" type="text" maxlength="1" placeholder="_">
+        </div>
+        <div>
+          <img src="/photos/lamp.png" alt="Lamp">
+          <input id="letter-5" type="text" maxlength="1" placeholder="_">
+        </div>
+        <button id="submit-button">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script5.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+#hint-button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #465de1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #hint-button:hover {
+    background-color: #3e8e41;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #room {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #picture-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #picture-display div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  #picture-display img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+  #picture-display input {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  #answer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #submit-button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #465de1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #3e8e41;
+  }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hotel Escondido</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+<audio id="room1-music" src="/audio/room1.mp3" autoplay="false"></audio>
+<div id="room">
+    <img src="/photos/room1.png" alt="Room 1" id="room-image">
+    <img id="door1" src="/photos/door1.png" onclick="trydoor()">
+    <img id="key1" src="/photos/key1.png" onclick="pickupKey()">
+    <img id="padlock1" src="/photos/padlock1.png" onclick="tryPadlock()">
+</div>
+        <div id="hand" class="hand-open"></div>
+        <div id="modal" style="display: none;">
+            <div id="modal-content">
+                <p id="modal-message">Find the key!</p>
+                <button id="modal-close" onclick="document.getElementById('modal').style.display = 'none';">Close</button>
+            </div>
+        </div>
+        <button id="escape" style="visibility: hidden;" onclick='window.location.href ="escaped.html";'>Find Valentina St. Claire before it's too late!</button>
+    </body>
+</html>

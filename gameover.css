@@ -1,0 +1,37 @@
+body {
+    background-color: #2f2f2f;
+    font-family: Arial, sans-serif;
+}
+
+.gameover-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gameover-container h1 {
+    font-size: 48px;
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.gameover-container p {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.fight-again-button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fight-again-button:hover {
+    background-color: #3e8e41;
+}

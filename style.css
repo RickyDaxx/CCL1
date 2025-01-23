@@ -1,0 +1,214 @@
+/* Starting Page Styles */
+
+#button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#button-container button {
+    width: 800px;
+    margin-bottom: 250px;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 36px;
+    padding: 30px;
+    font-size: 1.6rem;
+    transition: background-color 0.3s ease;
+}
+
+#start-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/photos/startingpage.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#start-page h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    background-color: rgba(245, 245, 220, 0.462);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#start-page p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgba(245, 245, 220, 0.462);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#start-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+#start-button:hover {
+    background-color: #45a049;
+}
+
+/* First Room Style */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+#room {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#room-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+#door1 {
+    position: absolute;
+    top: 272px;
+    left: 460px;
+}
+
+#key1 {
+    position: absolute;
+    top: 760px;
+    left: 900px;
+    transform: rotate(80deg);
+}
+
+#padlock1 {
+    position: absolute;
+    top: 525px;
+    left: 440px;
+}
+
+#escape {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+#escape.hover {
+  background-color: #45a049;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#hand {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    pointer-events: none;
+}
+
+.hand-open {
+    background-image: url("photos/openHand.png");
+}
+
+.hand-closed {
+    background-image: url("photos/closedHand.png");
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    pointer-events: auto;
+}
+
+#modal-close {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3;
+    pointer-events: auto;
+}
+  
+  #modal-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #modal-close:hover {
+    background-color: #3e8e41;
+  }
