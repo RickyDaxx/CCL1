@@ -23,3 +23,4 @@ Can you rescue the starlet and escape before it’s too late?
 - Story & Concept: Samuel Wartha
 - Graphics & Design: Samuel Wartha & AI
 - Music & Sound Effects: Samuel Wartha (Western Room) & Suno AI
+## To start the game go to VS-Code then right click on start.html and then open with live server.
