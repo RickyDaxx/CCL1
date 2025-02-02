@@ -24,3 +24,9 @@ Can you rescue the starlet and escape before it’s too late?
 - Graphics & Design: Samuel Wartha & AI
 - Music & Sound Effects: Samuel Wartha (Western Room) & Suno AI
 ## To start the game go to VS-Code then right click on start.html and then open with live server.
+## What went well:
+I was able to implement many cool quizzes and rooms that I'm very proud of.
+## Challenges:
+Implementing buttons that didn't work like they should & other implementation struggles that often came out to be very easy to solve.. ^^'
+## Lessons Learned:
+Found out many cool new things in Javascirpt. For example: Sweet alert - swal.fire
